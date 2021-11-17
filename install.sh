@@ -8,5 +8,5 @@ else
     brew update
 fi
 
-brew install --cask $(curl https://github.com/debugged-software/install-tooling/blob/main/casks.txt)
-brew install $(curl https://github.com/debugged-software/install-tooling/blob/main/formulae.txt)
+brew install --cask $(curl https://raw.githubusercontent.com/debugged-software/install-tooling/main/casks.txt)
+brew install $(curl https://raw.githubusercontent.com/debugged-software/install-tooling/main/formulae.txt)
