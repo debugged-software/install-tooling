@@ -10,3 +10,6 @@ fi
 
 brew install --cask $(curl https://raw.githubusercontent.com/debugged-software/install-tooling/main/casks.txt)
 brew install $(curl https://raw.githubusercontent.com/debugged-software/install-tooling/main/formulae.txt)
+
+# enable git lfs
+git lfs install
