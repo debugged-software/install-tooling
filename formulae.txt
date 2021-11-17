@@ -6,5 +6,6 @@ istioctl
 k3d		
 kubectx		
 kubectl	
-tilt		
+tilt-dev/tap/tilt		
 watch
+flutter
